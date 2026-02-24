@@ -2,7 +2,7 @@
 
 **Performance Evaluation & Analytics for CHAOS Execution**
 
-A real-time observability dashboard for autonomous AI agent workflows. Built to monitor [ORDER](https://github.com/bear/order), the lifecycle orchestrator behind CHAOS, which autonomously parses roadmaps, creates specs, writes code, opens PRs, fixes CI failures, and hands off between steps — producing 190+ PRs across multiple projects.
+A real-time observability dashboard for autonomous AI agent workflows. Built to monitor [ORDER](https://github.com/beartosis/order), the lifecycle orchestrator behind [CHAOS](https://github.com/beartosis/chaos), which autonomously parses roadmaps, creates specs, writes code, opens PRs, fixes CI failures, and hands off between steps — producing 190+ PRs across multiple projects.
 
 ![PEACE Dashboard](docs/images/dashboard.png)
 
