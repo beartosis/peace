@@ -2,7 +2,9 @@
 
 **Performance Evaluation & Analytics for CHAOS Execution**
 
-Observability dashboard for autonomous AI agent workflows. Built to monitor [ORDER](https://github.com/bear/order), the lifecycle orchestrator behind CHAOS, which autonomously parses roadmaps, creates specs, writes code, opens PRs, fixes CI failures, and hands off between steps — producing 190+ PRs across multiple projects.
+A real-time observability dashboard for autonomous AI agent workflows. Built to monitor [ORDER](https://github.com/bear/order), the lifecycle orchestrator behind CHAOS, which autonomously parses roadmaps, creates specs, writes code, opens PRs, fixes CI failures, and hands off between steps — producing 190+ PRs across multiple projects.
+
+![PEACE Dashboard](docs/images/dashboard.png)
 
 When ORDER runs for hours unsupervised and something breaks at 3am, understanding what happened means reading thousands of log lines across dozens of files. PEACE ingests that execution data and presents it as visual dashboards with failure analysis, duration trends, and drill-down views into every phase of every step.
 
@@ -15,6 +17,23 @@ When ORDER runs for hours unsupervised and something breaks at 3am, understandin
 - **Handoff Insights** — Parsed key decisions, tradeoffs, risks, learnings, and follow-ups per step
 - **Live Monitoring** — Real-time ORDER event streaming via SSE with connection status, event log, and pipeline visualization
 - **Dark Mode** — Full dark theme toggle
+
+## Screenshots
+
+### Dashboard
+Aggregate pass rates, duration trends, PR merge stats, and failure breakdowns at a glance.
+
+![Dashboard](docs/images/dashboard.png)
+
+### Run Detail
+Collapsible step cards for a single run showing state transitions, verdicts, and durations.
+
+![Run Detail](docs/images/run-detail.png)
+
+### Step Detail
+Horizontal state flow pipeline with dispatch content, syntax-highlighted payloads, and self-transition tracking.
+
+![Step Detail](docs/images/step-detail.png)
 
 ## Tech Stack
 
